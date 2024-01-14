@@ -5,8 +5,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+       colors: {
+        primary: "#050816",
+        secondary: "#aaa6c3",
+        tertiary: "#151030",
+        "black-100": "#100d25",
+        "black-200": "#090325",
+        "white-100": "#f3f3f3",
+      },
       backgroundImage: {
-        'hero-pattern': "url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+        'hero-pattern': "url('/src/Images/herobg.png')",
         'footer-texture': "url('/img/footer-texture.png')",
       }
     },

@@ -1,24 +1,48 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaAlignJustify } from "react-icons/fa";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { styles } from "../styles";
+import logo from '../Images/csoc-logo.png'
 
 const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   let Links = [
     { name: "Home", link: "/", id: "home" },
     { name: "About us", link: "/", id: "aboutus" },
     { name: "Members", link: "/members", id: "members" },
     { name: "Events", link: "/events", id: "events" },
+    { name: "Contacts", link: "/contacts", id: "contacts" },
   ];
   let [open, setOpen] = useState(false);
+  
   return (
-    <div className={`w-full z-20 shadow-md md:shadow-none fixed top-0 left-0 bg-white`}>
+    <div
+      className={`w-full z-20 shadow-md md:shadow-none fixed top-0 left-0 ${
+        scrolled ? "bg-primary" : "bg-transparent"
+      }`}
+    >
       <div className="md:flex items-center bg-white md:bg-transparent md:justify-between py-4 md:px-24 px-7">
         <a href="/">
           <div
-            className="font-bold font-[Play] text-4xl cursor-pointer flex items-center  
-      text-gray-800"
+            className="font-bold font-[Play] text-4xl cursor-pointer flex items-center text-gray-800"
           >
-            CSOC<strong>.</strong>
+            <img className="h-16" src={logo} alt="logo" />
           </div>
         </a>
 
@@ -46,7 +70,7 @@ const Navbar = () => {
               >
                 <a
                   href={link.link}
-                  className="text-gray-800 hover:text-gray-400 duration-500"
+                  className="hover:text-gray-400 text-white duration-500"
                 >
                   {link.name}
                 </a>
@@ -62,17 +86,17 @@ const Navbar = () => {
               offset={-40}
               duration={500}
             >
-              <button
+              {/* <button
                 className={`block rounded-full px-4 py-2 border-4 border-black md:hidden mx-auto`}
               >
                 Contact us
-              </button>
+              </button> */}
             </Link>
           ) : (
             <></>
           )}
         </ul>
-        <Link
+        {/* <Link
           activeClass="active"
           to="contactus"
           spy={true}
@@ -80,14 +104,8 @@ const Navbar = () => {
           offset={-40}
           duration={500}
         >
-          <button
-            className={`md:block rounded-full px-4 py-2 border-4 border-black hidden`}
-          >
-            Contact us
-          </button>
-        </Link>
+        </Link> */}
       </div>
-      <div className="h-[0.1rem] w-full bg-black"></div>
     </div>
   );
 };

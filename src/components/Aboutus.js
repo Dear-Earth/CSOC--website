@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../Images/csoc_logo.jpeg";
-import Nith from "../Images/nith.png";
+import logo from "../Images/csoc-logo.png";
+
 export const Aboutus = () => {
   return (
     <div
@@ -27,8 +27,7 @@ export const Aboutus = () => {
         translation by H. Rackham
       </p>
       <div className="flex flex-col md:flex-row justify-center items-center gap-10">
-        <img src={logo} className="h-36 md:h-48"/>
-        {/* <img src={Nith} className="h-36 md:h-48"/> */}
+        <img src={logo} alt="logo" className="h-36 md:h-48"/>
       </div>
     </div>
   );
