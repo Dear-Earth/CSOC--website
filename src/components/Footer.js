@@ -7,7 +7,7 @@ import { FaYoutube } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div>
-        <div className='bg-black text-center text-white pt-8 mb-0'>
+        <div className='bg-primary text-center text-white pt-8 mb-0'>
             <h3 className='text-xl font-semibold'>Society of Civil Engineering</h3>
             <p>© All right reserved &nbsp;|&nbsp; 2024</p>
             <ul className='flex flex-wrap md:flex-row justify-center items-center gap-10 md:gap-28 text-2xl py-5'>

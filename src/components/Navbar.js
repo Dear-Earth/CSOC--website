@@ -37,7 +37,7 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className="md:flex items-center bg-white md:bg-transparent md:justify-between py-4 md:px-24 px-7">
+      <div className="md:flex items-center md:justify-between py-4 md:px-24 px-7 text-white">
         <a href="/">
           <div
             className="font-bold font-[Play] text-4xl cursor-pointer flex items-center text-gray-800"
@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`md:flex md:items-center  text-center md:pb-0 pb-12 absolute md:static bg-white md:bg-transparent md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center  text-center md:pb-0 pb-12 absolute md:static bg-primary md:bg-transparent md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
             open ? "top-16" : "top-[-490px]"
           }`}
         >

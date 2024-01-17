@@ -4,11 +4,11 @@ import logo from "../Images/csoc-logo.png";
 export const Aboutus = () => {
   return (
     <div
-      className="flex flex-col justify-center items-center py-24  bg-zinc-100"
+      className="flex flex-col justify-center items-center py-24  bg-primary text-white"
       id="aboutus"
     >
       <h1 className="text-6xl font-bold font-[Play]">About Us</h1>
-      <p className="max-w-6xl my-16 px-6 py-4 border-solid-white border-2">
+      <p className="max-w-6xl my-16 px-6 py-4 border-solid-white border-2 rounded-xl">
         Contrary to popular belief, Lorem Ipsum is not simply random text. It
         has roots in a piece of classical Latin literature from 45 BC, making it
         over 2000 years old. Richard McClintock, a Latin professor at
