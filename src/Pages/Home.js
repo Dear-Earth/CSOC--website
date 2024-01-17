@@ -6,17 +6,17 @@ import Member from "../Pages/Members.js"
 import Events from "../Pages/Events.js"
 import HeroSection from "../components/HeroSection.js";
 import StarCanvas from '../components/canvas/stars.js'
+import Feedback from "../components/feedback.js";
 const Home = () => {
   return (
     <div className="bg-primary">
       <HeroSection />
       <StarCanvas />
       <Aboutus />
-      <FacultyMem />
+      <Feedback />
       <Member />
       <Events />
       <Contact />
-
     </div>
   );
 };

@@ -21,8 +21,9 @@ const HeroSection = () => {
           </h1>
         </div>
         <div className="text-center py-5 text-4xl font-[Play] font-bold">
+          <h1>WE ARE &nbsp;<span className="text-[#915EFF]">
           <Typewriter
-            words={["WE ARE A TEAM", "WE ARE A FAMILY"]}
+            words={[" A TEAM", "WE ARE A FAMILY"]}
             loop={true}
             cursor
             cursorStyle="|"
@@ -30,7 +31,7 @@ const HeroSection = () => {
             deleteSpeed={50}
             delaySpeed={1000}
             onLoopDone={handleDone}
-          />
+          /></span></h1>
         </div>
 
         <div className="absolute xs:bottom-10 bottom-2 w-full flex justify-center items-center">

@@ -8,29 +8,29 @@ import thirdYear from "../assets/ThirdYeardata.js";
 const Members = () => {
   const [data,setData] = useState(finalyear);
   return (
-    <div className=" text-center bg-zinc-100" id="members">
-      <h1 className="pt-14 pb-10 text-4xl font-[Play] font-bold text-Zinc-700">
+    <div className=" text-center bg-primary" id="members">
+      <h1 className="pt-14 pb-10 text-4xl font-[Play] font-bold text-white">
         {" "}
         Meet Our Team{" "}
       </h1>
       <ul className="flex md:flex-row flex-wrap gap-10 justify-center items-center">
         <li>
-          <button className="px-4 py-2 text-xl border-solid border-2 border-black black rounded-md font-bold hover:bg-black hover:text-white" onClick={() => setData(finalyear)}>
+          <button className="px-4 py-2 text-xl border-solid border-2 text-white border-white rounded-md font-bold hover:bg-white hover:text-black" onClick={() => setData(finalyear)}>
             Final Year
           </button>
         </li>
         <li>
-          <button className="px-4 py-2 text-xl border-solid border-2 border-black black rounded-md font-bold hover:bg-black hover:text-white" onClick={() => setData(thirdYear)}>
+          <button className="px-4 py-2 text-xl border-solid border-2 text-white border-white rounded-md font-bold hover:bg-white hover:text-black" onClick={() => setData(thirdYear)}>
             Third Year
           </button>
         </li>
         <li>
-          <button className="px-4 py-2 text-xl border-solid border-2 border-black black rounded-md font-bold hover:bg-black hover:text-white" onClick={() => setData(secondYear)}>
+          <button className="px-4 py-2 text-xl border-solid border-2 text-white border-white rounded-md font-bold hover:bg-white hover:text-black" onClick={() => setData(secondYear)}>
             Second Year
           </button>
         </li>
         <li>
-          <button className="px-4 py-2 text-xl border-solid border-2 border-black black rounded-md font-bold hover:bg-black hover:text-white" onClick={() => setData(firstYear)}>
+          <button className="px-4 py-2 text-xl border-solid border-2 text-white border-white rounded-md font-bold hover:bg-white hover:text-black" onClick={() => setData(firstYear)}>
             First Year
           </button>
         </li>
