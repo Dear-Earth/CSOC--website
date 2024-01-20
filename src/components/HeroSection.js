@@ -23,7 +23,7 @@ const HeroSection = () => {
         <div className="text-center py-5 text-4xl font-[Play] font-bold">
           <h1>WE ARE &nbsp;<span className="text-[#915EFF]">
           <Typewriter
-            words={[" A TEAM", "WE ARE A FAMILY"]}
+            words={[" A TEAM", " A FAMILY"]}
             loop={true}
             cursor
             cursorStyle="|"
