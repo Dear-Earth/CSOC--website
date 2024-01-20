@@ -2,7 +2,7 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { styles } from "../styles";
 import { motion } from "framer-motion";
-import logo from "../Images/csoc-logo.png";
+// import { Link, animateScroll as scroll } from "react-scroll";
 
 const HeroSection = () => {
   const handleDone = () => {
@@ -21,21 +21,25 @@ const HeroSection = () => {
           </h1>
         </div>
         <div className="text-center py-5 text-4xl font-[Play] font-bold">
-          <h1>WE ARE &nbsp;<span className="text-[#915EFF]">
-          <Typewriter
-            words={[" A TEAM", " A FAMILY"]}
-            loop={true}
-            cursor
-            cursorStyle="|"
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1000}
-            onLoopDone={handleDone}
-          /></span></h1>
+          <h1>
+            WE ARE &nbsp;
+            <span className="text-[#915EFF]">
+              <Typewriter
+                words={[" A TEAM", "A FAMILY"]}
+                loop={true}
+                cursor
+                cursorStyle="|"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+                onLoopDone={handleDone}
+              />
+            </span>
+          </h1>
         </div>
 
         <div className="absolute xs:bottom-10 bottom-2 w-full flex justify-center items-center">
-          <a href="#about">
+          <a href="\">
             <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
               <motion.div
                 animate={{

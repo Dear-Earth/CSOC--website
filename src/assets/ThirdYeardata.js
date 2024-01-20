@@ -1,25 +1,29 @@
 import Images from "./aImages/pngwing.com.png";
 import Arpit from "./aImages/arpit.jpg";
+import Pritanjali from "../assets/ThirdYearImages/IMG_8962 - PritanjaliSen.JPG"
+import Jigyasa from "../assets/ThirdYearImages/IMG_9825 - JigyasaAnand.JPG"
+import Shalu from "../assets/ThirdYearImages/IMG_20230706_200423_058 - ShaluRana.jpg"
+import Saksham from "../assets/ThirdYearImages/sakshamsharm.jpg"
 
 const data = [
   {
-    name: `Aradhaya Kapoor`,
+    name: `Aradhya Kapoor`,
     img: Images,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Saksham Sharma`,
-    img: Images,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-  },
-  {
-    name: `Somanshu Mehra`,
-    img: Images,
+    img: Saksham,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Arpit`,
     img: Arpit,
+    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+  },
+  {
+    name: `Somanshu Mehra`,
+    img: Images,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
@@ -34,7 +38,7 @@ const data = [
   },
   {
     name: `Pritanjali Sen`,
-    img: Images,
+    img: Pritanjali,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
@@ -44,12 +48,12 @@ const data = [
   },
   {
     name: `Jigyasa`,
-    img: Images,
+    img: Jigyasa,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Shalu Rana`,
-    img: Images,
+    img: Shalu,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
