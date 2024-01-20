@@ -1,9 +1,14 @@
-import Images from "./aImages/pngwing.com.png";
+import Charitra from "../assets/FinalYearImages/IMG_0515 - Charitra Pradhan.jpeg"
+import Garima from "../assets/FinalYearImages/338631926_3443246075900306_5831566410241566853_n - Garima Dahiya.jpg"
+import Tarun from "../assets/FinalYearImages/IMG-20231006-WA0124 - Tarun Agrawal.jpg"
+import Pasang from "../assets/FinalYearImages/my-passport-photo - Pasang Dolma.jpg"
+import Tanmay from "../assets/FinalYearImages/Screenshot_20230321_012057 - 20BCE002_Tanmay Goyal.jpg"
+import Images from "../assets/aImages/pngwing.com.png"
 
 const data = [
   {
     name: `Tanmay Goyal`,
-    img: Images,
+    img: Tanmay,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
@@ -13,12 +18,12 @@ const data = [
   },
   {
     name: `Tarun Agrawal`,
-    img: Images,
+    img: Tarun,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Charitra Pradhan`,
-    img: Images,
+    img: Charitra,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
@@ -28,7 +33,7 @@ const data = [
   },
   {
     name: `Garima`,
-    img: Images,
+    img: Garima,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
@@ -48,7 +53,7 @@ const data = [
   },
   {
     name: `Pasang Dolma`,
-    img: Images,
+    img: Pasang,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
