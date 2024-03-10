@@ -21,7 +21,7 @@ function App({cardno,info}) {
             </div>
             <div className="flex flex-col items-center justify-center gap-4 p-4 bg-white">
               <p className="text-xl font-semibold">{d.name}</p>
-              <p className="text-center">{d.review}</p>
+              <p className="text-center">{d.post}</p>
             </div>
           </div>
         ))}
