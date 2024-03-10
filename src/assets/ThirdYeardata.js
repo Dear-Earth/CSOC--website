@@ -8,56 +8,67 @@ import Saksham from "../assets/ThirdYearImages/sakshamsharm.jpg"
 const data = [
   {
     name: `Aradhya Kapoor`,
+    post:`Activities Coordinator`,
     img: Images,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Saksham Sharma`,
+    post:`Finance Coordinator`,
     img: Saksham,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Arpit`,
+    post:`Web & Tech Coordinator`,
     img: Arpit,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Somanshu Mehra`,
+    post:`PR Coordinator`,
     img: Images,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Parul Kajal`,
+    post:`Finance Coordinator`,
     img: Images,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Pranav Veer Singh`,
+    post:`Design Coordinator`,
     img: Images,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Pritanjali Sen`,
+    post:`Activities Coordinator`,
     img: Pritanjali,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Aditi Tiwari`,
+    post:`Media Coordinator`,
     img: Images,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Jigyasa`,
+    post:`Design Coordinator`,
     img: Jigyasa,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Shalu Rana`,
+    post:`Media Coordinator`,
     img: Shalu,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     name: `Shriya`,
+    post:`PR Coordinator`,
     img: Images,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
