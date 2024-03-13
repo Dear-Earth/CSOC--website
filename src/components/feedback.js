@@ -55,7 +55,7 @@ const Feedbacks = () => {
           key={0}
           image={""}
           testimonial={
-            "Because it&apos;s about motivating the doers. Because I&apos;m here to follow my dreams and inspire others."
+            "Building the future with knowledge and innovation, the Society of Civil Engineering fosters excellence in shaping resilient and sustainable infrastructures."
           }
         />
         <FeedbackCard
@@ -63,7 +63,7 @@ const Feedbacks = () => {
           key={2}
           image={P3}
           testimonial={
-            "Because it&apos;s about motivating the doers. Because I&apos;m here to follow my dreams and inspire others."
+            "Building the future with knowledge and innovation, the Society of Civil Engineering fosters excellence in shaping resilient and sustainable infrastructures."
           }
         />
       </div>
