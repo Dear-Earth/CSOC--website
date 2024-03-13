@@ -2,43 +2,82 @@ import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { IoArrowForward } from "react-icons/io5";
+import photo1 from "../Photos/groupPhoto.jpg";
+import photo2 from "../Photos/WhatsApp Image 2024-03-13 at 15.23.22_368e53d6.jpg";
+import photo3 from "../Photos/WhatsApp Image 2024-03-13 at 15.21.18_209c2430.jpg";
+import photo4 from "../Photos/WhatsApp Image 2024-03-13 at 15.21.18_0368d12b.jpg";
+import p1 from "../Photos/1p.jpg";
+import p2 from "../Photos/Snapinsta.app_337145991_203819605669957_4226280634022582269_n_1080.jpg";
+import p3 from "../Photos/Snapinsta.app_337175720_227656459817714_6917249062581790596_n_1080.jpg";
+import p4 from "../Photos/Snapinsta.app_337193000_910522000161838_8583867354731112464_n_1080.jpg";
+import p5 from "../Photos/Snapinsta.app_343307192_210013421746802_9199040885179310671_n_1080 (1).jpg";
+import p6 from "../Photos/Snapinsta.app_351243657_1588537758336477_559469572929077738_n_1080.jpg";
+import p7 from "../Photos/Snapinsta.app_351243657_1588537758336477_559469572929077738_n_1080.jpg";
+import p8 from "../Photos/Snapinsta.app_352438636_266742932541273_583583506427224302_n_1080.jpg";
+import p9 from "../Photos/Snapinsta.app_375588506_337819371913986_782398518134552177_n_1080.jpg";
+import p10 from "../Photos/Snapinsta.app_375630045_1305367226772906_2123264859607851317_n_1080.jpg";
+import p11 from "../Photos/Snapinsta.app_375729932_274076132059951_1639699030671031439_n_1080.jpg";
+import p12 from "../Photos/Snapinsta.app_375842431_123360857501967_3943713156263684485_n_1080.jpg";
+import p13 from "../Photos/Snapinsta.app_376248967_1236846217004183_6831166600425937228_n_1080.jpg";
+import p14 from "../Photos/WhatsApp Image 2024-03-13 at 15.21.18_0368d12b.jpg";
+import p15 from "../Photos/2p.jpg";
+
+
 
 const items = [
   {
-    image:
-      "https://plus.unsplash.com/premium_photo-1709405755034-c8da5f836657?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: photo2,
   },
   {
-    image:
-      "https://plus.unsplash.com/premium_photo-1709405755015-b7e52f639a0e?q=80&w=2002&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: photo1,
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1709525091854-7152bddb6d9d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: photo3,
   },
   {
-    image:
-      "https://plus.unsplash.com/premium_photo-1709405755034-c8da5f836657?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: photo4,
   },
   {
-    image:
-      "https://plus.unsplash.com/premium_photo-1709405755015-b7e52f639a0e?q=80&w=2002&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: p1,
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1709525091854-7152bddb6d9d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: p2,
   },
   {
-    image:
-      "https://plus.unsplash.com/premium_photo-1709405755034-c8da5f836657?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: p3,
   },
   {
-    image:
-      "https://plus.unsplash.com/premium_photo-1709405755015-b7e52f639a0e?q=80&w=2002&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: p4,
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1709525091854-7152bddb6d9d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: p5,
+  },
+  {
+    image: p6,
+  },
+  {
+    image: p7,
+  },
+  {
+    image: p8,
+  },
+  {
+    image: p9,
+  },
+  {
+    image: p10,
+  },
+  {
+    image: p11,
+  },
+  {
+    image: p12,
+  },
+  {
+    image: p13,
+  },
+  {
+    image: p14,
   },
 ];
 
@@ -52,7 +91,7 @@ function Items({ currentItems }) {
       {currentItems &&
         currentItems.map((item) => (
           <div>
-            <img src={item.image} alt="No Image" />
+            <img src={item.image} alt="No Image" className="object-cover w-full h-full px-3"/>
           </div>
         ))}
     </div>
