@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import P3 from "../assets/aImages/Snapinsta.app_343970458_611804627530348_4520768244585770303_n_1080.jpg";
+import HOD from "../assets/aImages/hod.jpg";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -53,9 +54,9 @@ const Feedbacks = () => {
         <FeedbackCard
           name={"Dr. V.K. Bansal"}
           key={0}
-          image={""}
+          image={HOD}
           testimonial={
-            "Building the future with knowledge and innovation, the Society of Civil Engineering fosters excellence in shaping resilient and sustainable infrastructures."
+            "Elevating civil engineering standards with CSOC, we construct a sustainable legacy for a resilient and innovative society."
           }
         />
         <FeedbackCard
