@@ -60,7 +60,7 @@ const EventTimeline = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>What do we do?</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Our Events</h2>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Our Main Events</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
