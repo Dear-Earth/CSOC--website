@@ -29,11 +29,11 @@ const Members = () => {
             Second Year
           </button>
         </li>
-        // <li>
-        //   <button className="px-4 py-2 text-xl border-solid border-2 text-white border-white rounded-md font-bold hover:bg-white hover:text-black" onClick={() => setData(firstYear)}>
-        //     First Year
-        //   </button>
-        // </li>
+         {/* <li>
+          <button className="px-4 py-2 text-xl border-solid border-2 text-white border-white rounded-md font-bold hover:bg-white hover:text-black" onClick={() => setData(firstYear)}>
+            First Year
+          </button>
+         </li> */}
       </ul>
       <div>
         <div className="hidden md:block">
