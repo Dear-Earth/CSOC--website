@@ -1,45 +1,51 @@
-import Shaurya from "../assets/SecondYearImages/22BCE095 - Shaurya Sharma.jpg";
-import Arnav from "../assets/SecondYearImages/IMG_20220612_181905-min - Arnav Chauhan.jpeg";
-import SRIJAN from "../assets/SecondYearImages/IMG_20231218_142309 - SRIJAN GAUTAM.jpg";
-import SATYA from "../assets/SecondYearImages/IMG-20230131-WA0006 - SATYA PANDEY.jpg";
-import Jashanpreet from "../assets/SecondYearImages/IMG-20240114-WA0000 - Jashanpreet Singh.jpg";
-import Dikshant from "../assets/SecondYearImages/passportsizeimg (1) - Dikshant Mehra.jpg";
-import Vanshika from "../assets/SecondYearImages/Snapchat-1501926945 - Vanshika Agrawal.jpg";
+import Vandit from "../assets/FirstYearImages/23BCE109 - VANDIT SHARMA.jpg";
+import Akhilesh from "../assets/FirstYearImages/20230821_144612 - Akhilesh Mehra.jpg";
+import Anjana from "../assets/FirstYearImages/IMG_20240105_120445_378 - Anjana Thakur.jpg";
+import Laksh from "../assets/FirstYearImages/IMG_20240113_234605 - Laksh Dahiya.jpg";
+import aryan from "../assets/FirstYearImages/IMG_20240114_150707 - aryan thakur.jpg";
+import Archies from "../assets/FirstYearImages/IMG-20240114-WA0007 - Archies.jpg";
+import Prabhat from "../assets/FirstYearImages/IMG20221226075713 - Prabhat Patwal.jpg";
+import ARYAN from "../assets/FirstYearImages/IMG20240114001237 - ARYAN SHARMA.jpg";
 
 const data = [
   {
-    name: `Shaurya Sharma`,
-    img: Shaurya,
+    name: `Vandit Sharma`,
+    img: Vandit,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    name: `Arnav Chauhan`,
-    img: Arnav,
+    name: `Akhilesh Mehra`,
+    img: Akhilesh,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    name: `Srijan Gautam`,
-    img: SRIJAN,
+    name: `Anjana Thakur`,
+    img: Anjana,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    name: `Satya Pandey`,
-    img: SATYA,
+    name: `Laksh Dahiya`,
+    img: Laksh,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    name: `Jashanpreet Singh`,
-    img: Jashanpreet,
+    name: `Aryan thakur`,
+    img: aryan,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    name: `Dikshant Mehra`,
-    img: Dikshant,
+    name: `Archies`,
+    img: Archies,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    name: `Vanshika Agrawal`,
-    img: Vanshika,
+    name: `Prabhat Patwal`,
+    img: Prabhat,
+    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+  },
+  {
+    name: `Aryan Sharma`,
+    img: ARYAN,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
 ];

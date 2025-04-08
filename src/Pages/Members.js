@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import TeamCard from "../components/TeamCard.js";
-//import finalyear from "../assets/FinalYeardata.js";
-import secondYear from "../assets/Firstyeardata.js";
-import thirdYear from "../assets/Secondyeardata.js";
-import finalyear from "../assets/ThirdYeardata.js";
+import finalyear from "../assets/FinalYeardata.js";
+//import secondYear from "../assets/Firstyeardata.js";
+import secondYear from "../assets/Secondyeardata.js";
+import thirdYear from "../assets/ThirdYeardata.js";
 
 const Members = () => {
   const [data,setData] = useState(finalyear);
@@ -29,11 +29,11 @@ const Members = () => {
             Second Year
           </button>
         </li>
-         {/* <li>
-          <button className="px-4 py-2 text-xl border-solid border-2 text-white border-white rounded-md font-bold hover:bg-white hover:text-black" onClick={() => setData(firstYear)}>
+         <li>
+          <button className="px-4 py-2 text-xl border-solid border-2 text-white border-white rounded-md font-bold hover:bg-white hover:text-black">
             First Year
           </button>
-         </li> */}
+         </li>
       </ul>
       <div>
         <div className="hidden md:block">
